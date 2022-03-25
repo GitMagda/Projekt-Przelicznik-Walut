@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Przelicznik walut</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="currencyConverter" id="currencyConverter">
+      <header>
+        <div class="logo" id="logo">
+          <img src="584-2507x1674.jpg" alt="" />
+        </div>
+        <div class="title" id="title">Przelicznik walut</div>
+      </header>
+
+      <div class="input" id="input">
+        <div class="amount" id="amount">
+          <input type="number" min="0" class="moneyAmount" id="moneyAmount" />
+        </div>
+        <div class="currency" id="currency">
+          <select
+            name="moneyCurrency"
+            class="moneyCurrency"
+            id="moneyCurrency"
+          ></select>
+        </div>
+        <div class="convert" id="convert">
+          <button class="convertAmount" id="convertAmount">Przelicz</button>
+        </div>
+      </div>
+      <div class="outcome" id="outcome"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
